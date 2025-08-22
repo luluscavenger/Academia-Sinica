@@ -1,0 +1,27 @@
+# 現有依賴
+PyPDF2>=3.0.0
+pdfplumber>=0.7.0
+langchain>=0.1.0
+langchain-community>=0.0.20
+nltk>=3.8
+
+# 新增的進階處理庫
+# PDF和圖片處理
+PyMuPDF>=1.23.0  # 也叫fitz，用於高級PDF處理和圖片提取
+pymupdf4llm>=0.0.5  # 專為LLM優化的PDF文本提取
+Pillow>=10.0.0   # 圖片處理支援
+matplotlib>=3.7.0  # 圖片顯示和繪圖
+
+# LaTeX和數學公式處理
+PyLaTeX>=1.4.0   # LaTeX文檔生成和處理
+
+# HTML和文本解析
+beautifulsoup4>=4.12.0  # HTML/XML解析
+lxml>=4.9.0             # BeautifulSoup的XML解析器
+
+# 文檔轉換 (注意：Pandoc需要額外系統安裝)
+pypandoc>=1.11          # Python的Pandoc介面
+
+# 支援庫
+requests>=2.31.0        # 網路請求
+python-magic>=0.4.27    # 文件類型檢測
